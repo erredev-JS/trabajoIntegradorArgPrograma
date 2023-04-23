@@ -1,4 +1,4 @@
-const apiKey = '2ad817d7f03ba02e5a44d88e';
+
 const nav = document.querySelector("#nav");
 const abrir = document.querySelector("#abrir");
 const cerrar = document.querySelector("#cerrar");
