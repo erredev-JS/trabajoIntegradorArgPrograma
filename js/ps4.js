@@ -138,7 +138,7 @@ JuegosPS4.forEach((item, i) => {
   };
   
   async function actualizarPrecios() {
-    const response = await fetch('https://v6.exchangerate-api.com/v6/e8755caba89112299a0d2965/latest/USD');
+    const response = await fetch('https://v6.exchangerate-api.com/v6/2ad817d7f03ba02e5a44d88e/latest/USD');
     const data = await response.json();
     const rates = data.conversion_rates;
     const tasaCambio = rates.ARS; // obtiene la tasa de cambio entre USD y EUR
